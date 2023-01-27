@@ -1,3 +1,5 @@
+DEPRECATED: integrated into [tiny_dot](https://github.com/jefflunt/tiny_dot)
+
 see `lib/yaml_to_struct.rb`
 
 this is a tiny gem, typically a single `class` or `module` meant to add a very
