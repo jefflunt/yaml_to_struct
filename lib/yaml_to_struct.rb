@@ -10,7 +10,6 @@ require 'psych'
 #   yaml_string = 'foo: {bar: {baz: 1}}'
 #   struct = YamlToStruct.load(yaml_string)
 #   struct.foo.bar.baz #=> 1
-
 module YamlToStruct
   def self.load(yaml_string)
     yaml = Psych.load(yaml_string)
